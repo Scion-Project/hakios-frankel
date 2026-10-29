@@ -1,0 +1,6 @@
+# HakiOS defconfig for the Google Pixel 10 (frankel, Tensor G5 "lga", devices/frankel): the common kernel, the Tensor G5's facts
+# (socs/lga) and this phone's own. Nothing of the phone's is loaded and no driver of another phone is built in: the first boot of a
+# port (docs/porting/index.md, step 2), to launchd on the boot loader's framebuffer.
+#include common_defconfig
+#include lga.config
+#include frankel.config

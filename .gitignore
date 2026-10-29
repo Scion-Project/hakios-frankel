@@ -1,0 +1,3 @@
+# images made here (mkimage.sh -o ...)
+*.img
+*.testkey.pem
